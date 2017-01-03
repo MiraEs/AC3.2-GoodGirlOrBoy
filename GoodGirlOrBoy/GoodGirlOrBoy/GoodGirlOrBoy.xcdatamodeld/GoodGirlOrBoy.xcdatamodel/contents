@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BehaviorEntry" representedClassName="BehaviorEntry" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Behaviors" representedClassName="Behaviors" syncable="YES" codeGenerationType="class">
+        <attribute name="behaviorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isProSocial" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Child" representedClassName="Child" syncable="YES" codeGenerationType="class">
+        <attribute name="behavior" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BehaviorEntry" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Behaviors" positionX="-36" positionY="18" width="128" height="75"/>
+        <element name="Child" positionX="-54" positionY="9" width="128" height="90"/>
+    </elements>
+</model>
